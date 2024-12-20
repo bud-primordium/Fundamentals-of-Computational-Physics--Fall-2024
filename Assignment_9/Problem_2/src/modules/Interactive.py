@@ -22,9 +22,9 @@ from matplotlib.figure import Figure
 import numpy as np
 from Visualization import Visualization
 from HeisenbergFCC import HeisenbergFCC
-from updaters import create_updater
+from Updaters import create_updater
 from typing import Optional, List, Set, Dict
-from simulation import AnnealingSimulation
+from Simulation import AnnealingSimulation
 
 
 class MplCanvas(FigureCanvas):

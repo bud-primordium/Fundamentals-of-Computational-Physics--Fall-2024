@@ -7,7 +7,7 @@ import numpy as np
 from typing import List, Dict
 from HeisenbergFCC import HeisenbergFCC
 from PhysicalQuantities import PhysicalQuantities
-from updaters import create_updater
+from Updaters import create_updater
 import matplotlib.pyplot as plt
 from FSAnalysis import FSAnalysis
 from tqdm import tqdm
